@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comic+Neue:wght@700&display=swap');
+:root{
+    --primaryColor:rgb(51,83,17);
+    --secondColor:rgb(217,217,217);
+    --tercerColor:rgb(230,66,105);
+    --textColor:rgb(34, 31, 31);
+    --fondo:rgb(255,193,0);
+}/*variables de colores*/
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-image:url(../img/naranjas.jpg);
+     font-family:'Cabin', sans-serif;
+     background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+section#seccion1{
+    background-color: var(--fondo);
+    width: 95%;
+    min-height: 100vh;
+    margin-left: 30px;
+    float: left;
+    position: fixed;
+}
+section#seccion1>div#div1{
+    
+    background-color: rgba(104, 110, 110, 0.432);
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 75%;
+    height: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 100% auto;
+
+    width: 70%;
+    height: 42px;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    position: fixed;
+    border-radius: 40%;
+}
+section#seccion1>div#div1>h3{
+    color: darkslategrey;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5px;
+}
+

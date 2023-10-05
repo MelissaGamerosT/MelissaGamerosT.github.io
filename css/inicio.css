@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comic+Neue:wght@700&display=swap');
+:root{
+    --primaryColor:rgb(51,83,17);
+    --secondColor:rgb(217,217,217);
+    --tercerColor:rgb(230,66,105);
+    --textColor:rgb(34, 31, 31);
+    --fondo:rgb(255,193,0);
+}/*variables de colores*/
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: var(--fondo);
+    font-family:'Cabin', sans-serif;
+}
+header{
+    background-color:var(--fondo);
+    width: 99.8%;
+    height:153px;
+    /*position: fixed;
+    z-index: 10;*/
+    float: left;
+}
+header>div#div1{
+    background-color:var(--primaryColor);
+    width: 70%;
+    height:50%;
+    float: left;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+header>div#div1>h1{
+    color: bisque;
+    font-size: 4rem;
+    margin-top: 5px;
+    text-align: center;
+}
+.imgPro{
+    width: 60px;
+    height: 65px;
+    border-radius:50%;
+    margin-top: 25px;
+    float: left;
+}
+header>div#div1 >div#div2{
+  margin-left: -18%;
+}
+header>div#div1>div#div3{
+    margin-right: -18%;
+}
+section#seccion1{
+height: 115vh;
+width: 100%;
+background-color:var(--fondo);
+float: left;
+}
+section#seccion1>div#div6{
+    height: 104vh;
+    width: 18%;
+    float: right;
+    margin-right: 0px;
+    background-color:var(--primaryColor);
+    margin-top: 17px;
+    }
+    section#seccion1>div#div6>ul>li{
+text-decoration: none;
+list-style: none;
+font-size: 1.2rem;
+font-weight: bold;
+color: var(--fondo);
+margin-top: 30px;
+margin-left: 10px;
+    }
+    section#seccion1>section#seccion2{
+        height: 40%;
+        width: 80%;
+        background-color:var(--primaryColor);
+        float: left;
+        margin-top: 18px;
+        margin-left: 25px;
+    }
+    .card{
+        margin-top: 17px;
+        margin-left: 2.24%;
+        width: 14%;
+        height: 260px;
+        background-color:var(--fondo);
+        border-radius: 5px;
+        float: left;
+    }
+    .add{
+        margin-top: 100%;
+        float:left;
+        margin-left:56px;
+        font-size: 3rem; 
+        background-color: beige;
+        border-radius: 50%;
+    }
+    section#seccion1>section#seccion3{
+        height: 52%;
+        width: 80%;
+        background-color:var(--fondo);
+        float:left;
+        margin-top: 18px;
+        margin-left: 25px;
+    }
+    .tamaño{
+        height: 40%;
+        width: 47%;
+        background-color:var(--primaryColor);
+        float:left;
+        margin-top: 24px;
+        margin-left: 25px;
+    }
+    .nombres{
+        color: bisque;
+        font-size: 2rem;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .a{
+        color:darkorange;
+        text-decoration: none;
+    }

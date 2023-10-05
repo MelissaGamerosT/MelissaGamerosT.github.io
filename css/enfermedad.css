@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comic+Neue:wght@700&display=swap');
+:root{
+    --primaryColor:rgb(51,83,17);
+    --secondColor:rgb(217,217,217);
+    --tercerColor:rgb(230,66,105);
+    --textColor:rgb(34, 31, 31);
+    --fondo:rgb(255,193,0);
+    --cards:rgb(255, 153, 0);  
+}/*variables de colores*/
+
+*{
+    margin: 2px;
+    padding:2px;
+}
+header>h1{
+font-family:'Cabin', sans-serif;
+color: beige;
+font-size: 3.5rem;
+text-align: center;
+width: 100%;
+height: 20%;
+}
+body{
+   background-image:url(../img/naranjas.jpg);
+    font-family:'Cabin', sans-serif;
+    background-size: 100% 100%;
+     width: 100%;
+     height: 110vh;
+}
+section#seccion1{
+    background-color: var(--fondo);
+    width: 95%;
+    min-height:130%;
+    margin-left: 22px;
+    float: left;
+    /*position: fixed;*/
+}
+.card{
+ margin-top: 60px;
+    margin-left: 10%;
+    width: 20%;
+    height: 330px;
+    background-color:var(--cards);
+    border-radius: 50px;
+    float: left;   
+}
+.enfer{
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 60%;
+    width: 70%;
+    border-radius: 30px;
+}
+section#seccion2{
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+section#seccion1>div#div1{
+    width: 55%;
+    background-color: var(--tercerColor);
+    height: 50px;
+    float: left;
+    margin-left: 23%;
+    margin-top:94px;
+}
+.eti{
+    text-decoration: none;
+     color:black;
+    margin-left: 37px;
+     margin-top: 45px;
+     font-weight: bold;
+     font-size: 2rem;
+}
+.eti:hover{
+    color:var(--tercerColor);
+}
+section#seccion1>div#div1>ul>li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--fondo);
+    margin-top: 10px;
+    text-align: center;
+        }
+        section#seccion1>div#div1>ul>li>a{
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--fondo);
+            list-style: none;
+            text-decoration: none;
+                }
+
+
+

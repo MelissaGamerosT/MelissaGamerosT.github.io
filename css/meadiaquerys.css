@@ -1,0 +1,67 @@
+@media only screen and (min-width:300px) and (max-width:576px){
+/*estamos creando resolucion para celulares*/
+        section#seccion2{
+            display:none;    
+        }
+        header>div#div1>div#div2>a>img{
+margin-left:-40px;
+        }
+        section#seccion1>div#div9{
+            width: 200px;
+            margin-left: 80px;
+            text-align: center;
+        }
+
+section#seccion1>h3{
+    margin-left: 96px;
+    text-align: center;
+    font-size: 3rem;
+}
+section#seccion1>h4{
+    margin-left: 66px;
+    text-align: left;
+    font-size: 1.3rem;
+}
+section#seccion1>div#div10{
+    width: 60%;
+    float: left;
+    margin-left: 30%;
+}
+section#seccion1>div#div11{
+    width: 60%;
+    float: left;
+    margin-left: 30%;
+}
+section#seccion1>#h61{
+   margin-left: 50px;
+    float: left;
+    margin-top: 20px;
+}
+section#seccion3>div#div8>img{
+        float: left;
+        margin-left: 270px;
+        width: 36px;
+        height: 36px;
+}
+
+section#seccion1{
+text-align: center;
+}
+
+        header nav ul{
+                display: none;
+            }
+            #products{
+                width: 80%;
+            }
+        .col{
+            width:100%;
+            margin-top: 50px;
+        }
+}
+@media only screen and (min-width:577px) and (max-width:1000px){
+    .col{
+        width:40%;
+        margin-top: 50px;
+    }  
+}

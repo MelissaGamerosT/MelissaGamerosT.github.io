@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comic+Neue:wght@700&display=swap');
+:root{
+    --primaryColor:rgb(51,83,17);
+    --secondColor:rgb(217,217,217);
+    --tercerColor:rgb(230,66,105);
+    --textColor:rgb(34, 31, 31);
+    --fondo:rgb(255,193,0);
+    --cards:rgb(255, 153, 0);  
+}/*variables de colores*/
+
+*{
+    margin: 2px;
+    padding:2px;
+}
+body{
+    background-image:url(../img/fondoplanta.jpg);
+     font-family:'Cabin', sans-serif;
+     background-size: 100% 100%;
+      width: 100%;
+      height: 110vh;
+ }
+ section#seccion1{
+    background-color: var(--fondo);
+    width: 95%;
+    min-height:130%;
+    margin-left: 27px;
+    float: left;
+    margin-top: 40px;
+}
+  .item {
+    box-sizing: border-box;
+    /*max-width: 400px;*/
+    position: relative;
+    overflow: hidden;
+    background:var(--primaryColor);
+      border: 1px solid var(--fondo);
+    box-shadow: 0px 0px 2px #EEE54C;
+      padding: 10px 20px 20px 20px;
+      margin: 10px auto;
+      font-family: sans-serif;
+      width:90%;
+      height: 50%;
+  }
+  .item p{
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    width:100%;
+  }
+  .item label{
+    font-weight: bold;
+  }
+  .item div{
+    display: inline-block;
+  }
+  .item .texto{
+     width: 50%;
+     float: left;
+     position:relative;
+  }
+  .item .botones span{
+    width:calc(100% - 20px);
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+  }
+  .item .botones{
+      position: absolute;
+      width: 39%;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+  .item:before{
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: #151515;
+      width: 60%;
+      height: 100%;
+      z-index: 0;
+      transform: skew(-15deg) translateX(45px);
+    -webkit-transform: skew(-15deg) translateX(45px);
+  }
+  span.detalle_cita {
+    border: 2px solid #EEE54C;
+    cursor: pointer;
+      display: inline-block;
+    margin-top:5px;
+    background: white;
+    color: #151515;
+    border-radius: 3px;
+      cursor: pointer;
+      padding: 8px 10px;
+      margin-right: 10px;
+    font-weight:bold;
+    margin-bottom:5px;
+  }
+  span.remove_cita {
+     border: 2px solid #EEE54C;
+        cursor: pointer;
+      display: inline-block;
+     margin-top:5px;
+    font-weight: bold;
+      border-radius: 3px;
+      padding: 8px 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      background: #EEE54C;
+      color: #151515;
+  }
+  .buscador label{
+      color: #151515;
+      font-weight: bold;
+  }
+  .buscador{
+        box-sizing: border-box;
+       /*max-width: 400px;*/
+      border: 1px solid var(--fondo);
+    box-shadow: 0px 0px 2px #EEE54C;
+    margin:0 auto;
+    width:90%;
+    line-height:2;
+    padding: 10px 10px 20px 10px;
+   background:var(--fondo);
+  }
+  #buscador{
+  box-sizing: border-box;
+      width: 100%;
+      font-size: 20px;
+      outline: none;
+      border: 1px solid #151515;
+  }
+  
+  /*.redes{
+        display: flex;
+      margin: 0;
+      list-style: none;
+      justify-content: center;
+      margin-top: 40px;
+    padding: 0;
+        flex-wrap: wrap;
+  }
+   .redes li img{
+        top:50%;
+        transform:translate(-50%,-50%);
+        -webkit-transform:translate(-50%,-50%);
+        position:absolute;
+        height:20px;
+        left:50%;
+      }
+   .redes li:hover:not(.titulo){
+        transform:scale(1.1);
+        -webkit-transform:scale(1.1);
+      }
+   .redes li.titulo{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        background: none;
+        margin-bottom: 15px;
+        border-radius: 0;
+        color:white;
+      box-shadow: none;
+      }
+   .redes li{
+     box-shadow: 0px 0px 5px 0px #f1e42cb2;
+      background: #1b1b1b;
+      width: 40px;
+      height: 40px;
+      position: relative;
+      margin: 0 8px;
+      border-radius: 50%;
+       transition:all 600ms;
+        -webkit-transition:all 600ms;
+    }*/

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comic+Neue:wght@700&display=swap');
+:root{
+    --primaryColor:rgb(51,83,17);
+    --secondColor:rgb(217,217,217);
+    --tercerColor:rgb(230,66,105);
+    --textColor:rgb(34, 31, 31);
+    --fondo:rgb(255,193,0);
+    --cards:rgb(255, 153, 0);  
+}/*variables de colores*/
+
+*{
+    margin: 2px;
+    padding:2px;
+}
+body{
+    background-color: var(--tercerColor);
+     font-family:'Cabin', sans-serif;
+     background-size: 100% 100%;
+      width: 100%;
+      height: 110vh;
+ }
+ section#seccion1{
+    margin-top: 30px;
+    width: 98%;
+    height: 120vh;
+    margin-left: 8px;
+    background-color: var(--tercerColor);
+ }
+ section#seccion1>div#div0>h1{
+   font-size: 2rem;
+   color:white;
+   margin-left: 20px;
+   margin-top: 20px;
+ }
+ .card{
+    background-color: var(--fondo);
+    width: 30%;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+ }
+ .letras{
+    font-size: 1.4rem;
+    color:white;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+ .ani{
+   font-size: 1.4rem;
+   color:var(--primaryColor);
+   margin-left: 20px;
+   margin-top: 210px;
+ }
+ section#seccion2{
+   width: 98%;
+   height: 20%;
+   margin-left: 8px;
+   background-color: var(--tercerColor);
+}
+
+

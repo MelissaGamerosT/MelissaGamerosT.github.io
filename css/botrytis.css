@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comic+Neue:wght@700&display=swap');
+:root{
+    --tercerColor:rgb(230,66,105);
+    --textColor:rgb(34, 31, 31);
+    --fondo:rgb(255,193,0);
+    --cards:rgb(255, 153, 0);  
+}/*variables de colores*/
+*{
+    margin: 2px;
+    padding:6px;
+}
+body{
+   background-color:var(--tercerColor);
+    font-family:'Cabin', sans-serif;
+}
+.card{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+    height: 180px;
+    background-color:var(--cards);
+    border-radius: 50px;
+    float: left;  
+}
+section#seccion1{
+    float: left;
+    background-color: var(--tercerColor);
+    width: 100%;
+    height: 30px;
+}
