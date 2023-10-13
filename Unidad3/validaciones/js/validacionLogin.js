@@ -3,7 +3,7 @@ window.onload=()=>{
     var btn=document.getElementById("btnLogin")
 
     let txtE= document.getElementById('txtEmail')//llamar por su id
-    let txtP=document.querySelector("#txtPassword")//llamamos objetos que tienen clase
+    let txtP=document.querySelector("#txtPassword")//llamamos id de otra forma
     let divA=document.querySelector("#alert")//el nombre tiene que se rigual que el js el de los parentesis
     let divAS=document.querySelector("#alertSuccess")
 

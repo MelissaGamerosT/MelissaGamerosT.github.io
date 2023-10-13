@@ -171,7 +171,7 @@ animation: btn-anim1 1s linear infinite;
         bottom: 100%;
     }
 }
-#alert,#alertSuccess{
+#alert,#alertSuccess,#alertSucces,#alertt{
     padding: 10px;
     color: white;
     background-color: rgba(241, 54, 54, 0.836);
@@ -181,4 +181,10 @@ animation: btn-anim1 1s linear infinite;
 }
 #alertSuccess{
 background-color: chartreuse;
+}
+#alertSucces{
+    background-color: aqua;
+}
+#alertt{
+    background-color: darkorange;
 }
